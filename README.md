@@ -13,9 +13,9 @@ You will also need to have software installed to run and execute an [iPython Not
 
 Recomend installing  [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
 
-##Projects:
+## Projects:
 
-###1. Cat-Dog-Classifier  
+### 1. Cat-Dog-Classifier  
 - The machine learning model was trained on  a set of labeled images of  cats and dogs, was saved and used  to classify a new image as cats or dogs. The original data set can be downloaded [here](https://s3.amazonaws.com/content.udacity-data.com/nd089/Cat_Dog_data.zip).
 
 - Google Colaboratory is used in order to be able to train model using GPU.
