@@ -13,7 +13,11 @@ You will also need to have software installed to run and execute an [iPython Not
 
 Recomend installing  [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
 
-1. Cat-Dog-Classifier 
-- Given a set of labeled images of  cats and dogs, a  machine learning model  is to be learnt and later it is to be used to classify a set of new images as cats or dogs. The original data set can be downloaded [here](https://s3.amazonaws.com/content.udacity-data.com/nd089/Cat_Dog_data.zip).
+##Projects:
 
-- Google Colaboratory is used to create ipynb notebook and run model training and evaluation.
+###1. Cat-Dog-Classifier  
+- The machine learning model was trained on  a set of labeled images of  cats and dogs, was saved and used  to classify a new image as cats or dogs. The original data set can be downloaded [here](https://s3.amazonaws.com/content.udacity-data.com/nd089/Cat_Dog_data.zip).
+
+- Google Colaboratory is used in order to be able to train model using GPU.
+- pretrained model file "resnet50_1epoch.pth".
+- fie for demonstration "Aza1.jpg"
