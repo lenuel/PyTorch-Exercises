@@ -15,9 +15,17 @@ Recomend installing  [Anaconda](https://www.continuum.io/downloads), a pre-packa
 
 ## Projects:
 
-### 1. Cat-Dog-Classifier  
-- The machine learning model was trained on  a set of labeled images of  cats and dogs, was saved and used  to classify a new image as cats or dogs. The original data set can be downloaded [here](https://s3.amazonaws.com/content.udacity-data.com/nd089/Cat_Dog_data.zip).
+### 1. MNIST-Digits-Classifier:
+- A machine learning model was created to predict label of hand-written digit.
+- A number of epochs was choosen using "Model Validation" technique.
+- Validation set was used to measure how well a model generalizes, during training.
+- The model training was stopped when the validation loss stops decreasing (and especially when the validation loss starts increasing and the training loss is still decreasing).
+
+### 2. Cat-Dog-Classifier  
+- A machine learning model was trained on  a set of labeled images of  cats and dogs, was saved and used  to classify a new image as cats or dogs. The original data set can be downloaded [here](https://s3.amazonaws.com/content.udacity-data.com/nd089/Cat_Dog_data.zip).
 
 - Google Colaboratory is used in order to be able to train model using GPU.
 - pretrained model file "resnet50_1epoch.pth".
 - fie for demonstration "Aza1.jpg"
+
+
